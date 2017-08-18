@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>AutoLike for Instagram</title>
+
+    <!-- bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-skin.css">
+  </head>
+  <body>
+
+    <h2 style="color:#ED006D !important; text-align:center; padding-top:20px;">" AutoLike for Instagram "</h2>
+
+    
+    <div id="status-pannel" style="padding: 20px 20px 20px 20px;">
+
+        <div id="txtStartDate" style="color:#636467; padding-left:20px">
+            start date : 
+        </div>
+
+        <table style="width:100%">
+            <tr>
+                <th>pages</th>
+                <th>contents</th>
+                <th>likes</th>
+                <th>unlikes</th>
+            </tr>
+            <tr>
+                <td id="txtPages"></td>
+                <td id="txtContents"></td>
+                <td id="txtLikes"></td>
+                <td id="txtUnlikes"></td>
+            </tr>
+        </table>
+
+        <div class="wrap">
+        </div>
+    
+
+        <div>
+
+            <button id="btnAutoLoadStart" type="button" class="btn btn-primary btn-xs">auto load start</button>
+            <button id="btnAutoLoadStop" type="button" class="btn btn-warning btn-xs" style="display:none">auto load stop</button>
+
+            <button id="btnAutoLikeStart" type="button" class="btn btn-primary btn-xs">auto like start</button>
+            <button id="btnAutoLikeStop" type="button" class="btn btn-warning btn-xs" style="display:none">auto like stop</button>
+            
+            <button id="btnLoadMorePage" type="button" class="btn btn-primary btn-xs">more contents</button>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="wrap">
+        </div>
+
+        <div id="developer-info" style="text-align:right; color:grey;">
+            made by tofufather
+        </div>
+    </footer>    
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    width : 420px; 
+    min-height:250px;
+}
+
+h1 , h1 a {
+font-size: 36px !important;
+}
+h2 , h2 a {
+font-size: 24px !important;
+}
+h3 , h3 a {
+font-size: 18px !important;
+}
+h4 , h4 a {
+font-size: 16px !important;
+}
+h5 , h5 a {
+font-size: 13px !important;
+}
+h6 , h6 a {
+font-size: 12px !important;
+}
+
+h1 , h1 a , h1 span ,
+h2 , h2 a , h2 span , 
+h3 , h3 a , h3 span , 
+h4 , h4 a , h4 span , 
+h5 , h5 a , h5 span , 
+h6 , h6 a , h6 span 
+{
+    color: #3c3c3c;
+    font-family: "Lato" , sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0px;
+    margin-top: 0px;
+    line-height: 100%;
+}
+
+div , ul , .gallery-caption , footer p , li a ,  p , span , article 
+, nav , blockquote , dl ,  dt , dd , td , a, tr , th , code , caption , figcaption , input , label , textarea 
+{
+        font-family: 'Lato' , sans-serif;
+        font-weight: 400;
+        color: #eb871d;
+        font-size: 16px;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: none;
+
+}
+
+table {
+    border-collapse: collapse;
+    padding-top: 10px;
+}
+
+td, th {
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    color: #fff;
+}
+
+.status {
+    color:grey; 
+    padding: 40px 20px 0px 40px;
+}
+
+footer {
+    padding: 0px 20px 10px 20px;
+}
+
+.wrap {
+    padding-top: 20px;
+    border-bottom:2px solid #2b2b2b;
+}

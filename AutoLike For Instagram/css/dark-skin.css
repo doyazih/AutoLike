@@ -1,0 +1,83 @@
+ /* -------------------------------------------------------------- 
+ 	Blogify Theme Dark Skin
+  -------------------------------------------------------------- */
+  body {
+
+			background: #343434;
+	}
+
+ 	section.top-sidebar , #pageslide , section.right-sidebar , section.left-sidebar {
+ 		background: #1e1e1e;
+ 	}
+
+ 	 header#header  div.backgroundOpacity , nav.menu ul, nav.menu ul ul {
+ 	 	background: #2b2b2b !important;
+ 	 }
+ 	 div.backgroundNoOpacity {
+ 	 	background: #2b2b2b !important;
+ 	 }
+ 	  header#header {
+ 	  	border-bottom:1px solid #2B2C25;
+ 	  }
+ 	   header form.top-search 
+     {
+ 	   	background-color: #343434;
+ 	   }
+
+ 	   footer .social-icons a , .divider-half , .divider {
+ 	   	background-color: #2b2b2b;
+ 	   }
+
+ 	  	section.blog > .container > .row > .span12 > h2 {
+ 	   	color: #c1c1c1;
+ 	   }
+
+ 	   .single-post .post-format-quote .wrapper {
+ 	   	border: 1px solid #2b2b2b;
+ 	   }
+
+ 	 .top-pagination a:hover ,.blog-pagination .wrap  .next-posts a:hover,.blog-pagination .wrap  .prev-posts a:hover,.top-pagination .next-posts a:hover
+ 	 ,.top-pagination .prev-posts a:hover , .blog-pagination .wrap ul li a:hover, .blog-pagination a.active{
+ 	 	 background-color: #2b2b2b;
+		border-bottom-color: #242424;
+ 	 }
+ 	 .top-pagination a ,.blog-pagination .wrap  .next-posts a,.blog-pagination .wrap  .prev-posts a,.top-pagination .next-posts a
+ 	 ,.top-pagination .prev-posts a , .blog-pagination .wrap ul li a, .blog-pagination a.active {
+		border-bottom-color: #242424;
+ 	 }
+
+
+	section.blog .single-post > .post-content .post-inner-content  {
+
+		  border-bottom: 1px solid #000;
+	}
+
+	.blog-pagination .wrap , .top-pagination .wrap   {
+		border-bottom: 2px solid #2b2b2b;
+	}
+
+	nav.menu ul ul {
+		border-bottom: 1px solid #2b2b2b;	
+
+	}
+
+	nav.menu ul ul > li {
+      
+      border-right: 1px solid #2b2b2b;
+      border-left: 1px solid #2b2b2b;
+
+
+  }
+
+
+   header form.top-search input.s:focus , header form.top-search input.s:active {
+
+      box-shadow: inset 0px 0px 1px #1E1E1E;
+  }
+
+  .blog-pagination .wrap , .top-pagination .wrap {
+  	border-bottom: 2px solid #2b2b2b;
+  }
+
+  
+
